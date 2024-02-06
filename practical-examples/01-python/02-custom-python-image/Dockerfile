@@ -3,6 +3,9 @@
 # start everything with the base image python (version 3)
 FROM python:3.9
 
+# Install python modules that we need/want
+RUN pip3 install numpy
+
 # sets the working directory inside our container. This is for some instructions that we'll execute later (like CMD)
 WORKDIR /src/app
 
