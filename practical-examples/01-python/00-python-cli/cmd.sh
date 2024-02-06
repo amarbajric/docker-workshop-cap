@@ -1,1 +1,1 @@
-docker run --rm -it python:3 python
+docker run --rm -it python:3.9 python
